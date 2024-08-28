@@ -1,4 +1,4 @@
-package com.suhoi.lesson2;
+package com.suhoi.oop.lesson3;
 
 public class Computer {
      int ssd = 500;

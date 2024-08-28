@@ -1,4 +1,4 @@
-package com.suhoi.lesson2;
+package com.suhoi.oop.lesson3;
 
 public class ComputerRunner {
     public static void main(String[] args) {
