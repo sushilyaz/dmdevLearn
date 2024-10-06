@@ -6,6 +6,7 @@ public class Main {
         int[] array = {value, 120, 30};
 
         printArray(array);
+
     }
 
     private static void printArray(int[] array) {
