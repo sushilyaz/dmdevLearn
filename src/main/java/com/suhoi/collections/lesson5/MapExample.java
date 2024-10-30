@@ -16,5 +16,10 @@ public class MapExample {
         map.put(ivan1.getId(), ivan1);
         map.put(petr.getId(), petr);
         System.out.println(map);
+
+        map.keySet().forEach(System.out::println);
+        System.out.println(map.entrySet());
+        System.out.println(map.containsValue(ivan1));
+        System.out.println(map.containsKey(1));
     }
 }
