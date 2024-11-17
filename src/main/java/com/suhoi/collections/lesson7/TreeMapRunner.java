@@ -13,7 +13,7 @@ public class TreeMapRunner {
         Person vitya = new Person(34, "vitya", "asd");
 
         Map<Integer, Person> map = new TreeMap<>();
-
+        // Сортировка осуществляется засчет переопределения метода compareTo(для этого надо имплементировать интерфейс Comparable) или передать значение
         // сложность log(n), благодаря алгоритму КЧД. Балансировка осуцществляется засчет метода fixAfterInsertion
         map.put(ilya.getId(), ilya);
         map.put(andrey.getId(), andrey);
