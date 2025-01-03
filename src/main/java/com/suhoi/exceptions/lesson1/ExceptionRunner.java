@@ -6,9 +6,11 @@ public class ExceptionRunner {
     public static void main(String[] args) {
         System.out.println("main start");
         try {
-            unsafe(10);
+            unsafe(-10);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("finally");
         }
         System.out.println("main end");
     }
